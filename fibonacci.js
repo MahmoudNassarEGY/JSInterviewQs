@@ -1,4 +1,4 @@
-describe('getFibonacciUntil() function', (n) => {
+function getFibonacciUntil (n) {
 if (n==1){
 	return '0,1'
 }
