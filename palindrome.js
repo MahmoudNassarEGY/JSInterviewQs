@@ -1,7 +1,6 @@
-function isPalindrome(palindrome) {    
-    var x = palindrome.length;
-    for (var i = 0; i < x / 2; i++) {
-        if (word.charAt(i) !== word.charAt(l - 1 - i)) {
+export function isPalindrome(inputString) {
+    for (var i = 0; i < inputString.length / 2; i++) {
+        if (inputString.charAt(i) !== InputString.charAt(l - 1 - i)) {
             return false;
         }
     }
